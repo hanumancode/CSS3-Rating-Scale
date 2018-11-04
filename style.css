@@ -49,6 +49,6 @@ p {
     border-right: 1px solid #000;
 }
 
-.rating input[type="radio"]:hover ~ label {
+.rating input[type="radio"]:hover ~ label, .rating input[type="radio"]:checked ~ label {
     background: transparent;
 }
